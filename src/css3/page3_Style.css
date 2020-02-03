@@ -1,0 +1,105 @@
+.page3 {
+    width: 100%;
+}
+
+#p3_mainTxt {
+    position: relative;
+    left: 16px;
+    top: -50px;
+    margin: 0 auto;
+    font-size: 0.9em;
+    font-weight: 900;
+    width: 135px;
+    color: white;
+    background-color: rgba(53, 52, 52, 0.281);
+}
+
+#remoteControl {
+    position: relative;
+    top: -40px;
+    margin: 10px auto;
+    width: 180px;
+    height: 300px;
+    background-color: black;
+    border-radius: 35px;
+    border: 2px solid rgb(93, 94, 93);
+    box-shadow: 2px 2px 10px 2px gray;
+}
+
+#p3_remoteImg {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    right: 78px;
+    width: 45px;
+}
+
+#box_speker {
+    margin: 0 auto;
+    width: 30px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 20px;
+    position: relative;
+    top: 12px;
+}
+
+#btn_Menu_power,
+#btn_Menu_co2,
+#btn_Menu_pm25,
+#btn_Menu_pm10 {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: rgb(49, 48, 48);
+    line-height: 50px;
+    font-size: 0.8em;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 2px solid rgb(100, 100, 100);
+}
+
+#btn_Menu_co2:hover,
+#btn_Menu_pm25:hover,
+#btn_Menu_pm10:hover {
+    border: 2px solid white;
+}
+
+#p3_powerImg {
+    width: 70%;
+    position: relative;
+    top: 7px;
+}
+
+#btn_mainBox {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    top: 65px;
+}
+
+#btn_Menu_power {
+    position: relative;
+    border-color: rgb(190, 28, 28);
+}
+
+#btn_Menu_co2 {
+    position: relative;
+    right: 50px;
+}
+
+#btn_Menu_pm10 {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+#btn_Menu_pm25 {
+    position: relative;
+    bottom: 50px;
+}
+
+/* 모바일 반응형 웹 */
+@media screen and (min-width: 400px) {}

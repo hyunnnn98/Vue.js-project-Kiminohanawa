@@ -1,0 +1,230 @@
+.page2 {
+    width: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#p2_mainTxt {
+    margin-top: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+/* 검색창 전체 div */
+#p2_searchWindow {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#p2_selectText {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 700;
+}
+
+#page2_table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 550px;
+    min-width: 320px;
+}
+
+/* 테이블 value값  */
+#page2_t_body>tr>td {
+    font-size: small;
+    height: 40px;
+    background-color: white;
+}
+
+/* 검색버튼 */
+#p2_choose_date {
+    margin-left: 5px;
+    min-width: 10px;
+}
+
+#p2_choose_date,
+#p2_months_choose,
+#p2_years_choose,
+#p2_weeks_choose {
+    margin: 0 auto;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+#p2_years_choose {
+    width: 45px;
+}
+
+#p2_months_choose {
+    padding-left: 10px;
+    width: 30px;
+}
+
+#p2_weeks_choose {
+    padding-left: 10px;
+    width: 30px;
+    /* margin-right: 10px; */
+}
+
+/* 전체 테이블 width */
+#page2_t_head>tr>th {
+    background-color: white;
+    width: 0px;
+}
+
+/* 테이블 - 요일 css */
+#page2_t_head>tr>th:nth-child(1) {
+    border-radius: 10px 0 0 0;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#page2_t_head>tr>th:nth-child(4) {
+    border-radius: 0 10px 0 0;
+}
+
+/* 일요일 텍스트 */
+#page2_t_body>tr:nth-child(1)>td:nth-child(1) {
+    color: red;
+}
+
+/* 토요일 텍스트 */
+#page2_t_body>tr:nth-child(7)>td:nth-child(1) {
+    color: blue;
+}
+
+
+#page2_t_body>tr:nth-of-type(7)>td:nth-child(1) {
+    border-radius: 0 0 0 10px;
+}
+
+#page2_t_body>tr:nth-of-type(7)>td:nth-child(4) {
+    border-radius: 0 0 10px 0;
+}
+
+#page2_t_body>tr>td:nth-child(1) {
+    font-weight: 900;
+}
+
+/* 요일 감싸는 box */
+#p2ShowGraph {
+    background-color: rgba(0, 0, 0, 0.109);
+        width: 60%;
+}
+
+#page2_t_body>tr>td>div {
+    /* background-color: rgba(0, 0, 0, 0.109); */
+
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+#page2_t_body>tr>td>div>p {
+    color: black;
+    height: 30px;
+}
+
+#p2_graphDay {
+    position: relative;
+    top: 0.7px;
+    display: inline-block;
+    width: 79px;
+    font-weight: 700;
+    font-size: 0.95em;
+}
+
+#p2_pastBtnBox {
+    display: inline-block;
+}
+
+/* 그래프 감싸는 태그  */
+#pastGp {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px 0px rgba(54, 54, 54, 0.4);
+    margin: 20px auto 0;
+    width: 90%;
+    max-width: 550px;
+    min-width: 320px;
+    padding: 5px;
+}
+
+#p2_chart_pastAvg {
+    max-height: 300px;
+    padding-top: 10px;
+}
+
+#p2_pastSelectBtn {
+    display: inline-block;
+    position: relative;
+    margin-right: -9px;
+    min-width: 9.5px;
+    font-weight: 900;
+    background-color: #bebebe00;
+    font-size: 0.85em;
+}
+
+#p2_icon_co2,
+#p2_icon_pm10,
+#p2_icon_pm25 {
+    display: inline-block;
+    width: 30px;
+    height: 13px;
+    margin-right: 4px;
+    border: 1px solid black;
+}
+
+#p2_icon_co2 {
+    background-color: rgb(32, 143, 235, 0.8);
+}
+
+#p2_icon_pm25 {
+    background-color: rgba(255, 99, 132, 0.8);
+}
+
+#p2_icon_pm10 {
+    background-color: rgba(34, 168, 45, 0.8);
+}
+
+#p2_pastSelectBtn:hover {
+    background-color: rgb(109, 109, 109);
+    color: white;
+}
+
+/* 모바일 반응형 웹 */
+@media screen and (max-width: 566px) {
+    #page2_t_body>tr>td>div {
+        /* width: 80%; */
+        text-align: center;
+    }
+
+    #p2_graphDay {
+        margin-left: -13px;
+        margin-right: -11px;
+    }
+
+    #p2_co2_value,
+    #p2_pm10_value,
+    #p2_pm25_value {
+        width: 77px;
+        margin: 0 auto;
+    }
+
+    #p2_icon_co2,
+    #p2_icon_pm10,
+    #p2_icon_pm25 {
+        width: 13px;
+    }
+
+    #p2_pastSelectBtn {
+        margin-right: -16px;
+    }
+}

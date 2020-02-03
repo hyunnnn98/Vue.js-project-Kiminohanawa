@@ -1,0 +1,288 @@
+.page1 {
+    width: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* 테마변경 버튼 text */
+.v-input .v-label {
+    margin-left: -6px;
+    color: white;
+    font-size: 0.8em;
+}
+
+/* 테마변경 버튼 버튼 */
+.v-input__control {
+    font-weight: 700;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* 테마변경 버튼 전체 ground */
+.v-input {
+    margin-bottom: 10px;
+}
+
+#p1_time,
+#p1_mainTxt,
+#p1_subTxt {
+    display: none;
+}
+
+#p1_mobileTxt {
+    position: relative;
+    top: 15px;
+    font-weight: 700;
+    color: white;
+    line-height: 0.3;
+    font-size: 1.1em;
+}
+
+#p1_textDanger {
+    display: inline-block;
+    width: 55px;
+    font-weight: 700;
+    font-size: 0.95em;
+    margin: 0 auto;
+}
+
+#p1_tooltipMain {
+    display: inline-block;
+    position: relative;
+    left: 145px;
+    bottom: 45px;
+    background-image: url(../imgs/idea-on.png);
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    color: white;
+    font-weight: 700;
+}
+
+#p1_tootlipSensorTxt {
+    margin: 15px auto 0;
+    text-align: center;
+}
+
+#p1_tooltipTxt {
+    background-color: black;
+    position: relative;
+    font-size: 0.8em;
+    border-radius: 50px;
+    top: 37px;
+}
+
+#p1_tooltipIcon {
+    height: 40px;
+}
+
+#p1_tooltipON {
+    text-align: left;
+    height: 120px;
+    line-height: 1px;
+}
+
+#p1_tooltipRed,
+#p1_tooltipYellow,
+#p1_tooltipGreen,
+#p1_tooltipBlue {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 20px;
+}
+
+#p1_tooltipRed {
+    display: inline-block;
+    background-color: rgb(253, 14, 14);
+}
+
+#p1_tooltipYellow {
+    display: inline-block;
+    background-color: rgb(247, 103, 19);
+
+}
+
+#p1_tooltipGreen {
+    display: inline-block;
+    background-color: rgb(27, 161, 45);
+}
+
+#p1_tooltipBlue {
+    display: inline-block;
+    background-color: rgb(35, 53, 214);
+}
+
+#page1_mainBox {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.007);
+    height: 20%;
+    border-radius: 15px;
+}
+
+#chart_pm25,
+#chart_pm10,
+#chart_co2 {
+    margin: 0 auto;
+}
+
+#page1_GraphBox {
+    background-color: #ffffff;
+    margin: 1%;
+    border-radius: 15px;
+    color: black;
+}
+
+#GraphValue {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    /* background-color: #515874; */
+    margin: -20px auto 0;
+    width: 80px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#page1_detailBtn {
+    background: #4dbddd;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 1.05em;
+    border-radius: 50px;
+}
+
+#crt_RealTime {
+    margin-top: 10px;
+    margin-left: -3%;
+    height: 300px;
+}
+
+#page1_realTimeBcg {
+    height: 350px;
+    margin: 0 auto;
+    /* background-color: rgba(255, 255, 255, 0.774); */
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px 0px rgba(54, 54, 54, 0.4);
+}
+
+#p1_avgBtnBox {
+    display: inline-block;
+}
+
+#p1_avgSelectBtn {
+    position: relative;
+    top: 12px;
+    margin-right: 0px;
+    min-width: 70px;
+    font-weight: 900;
+    font-size: 0.8em;
+    background-color: #bebebe00;
+}
+
+#icon_co2,
+#icon_pm10,
+#icon_pm25 {
+    display: inline-block;
+    width: 30px;
+    height: 13px;
+    margin-right: 4px;
+    border: 1px solid black;
+}
+
+#icon_co2 {
+    background-color: rgb(32, 143, 235, 0.8);
+}
+
+#icon_pm25 {
+    background-color: rgba(255, 99, 132, 0.8);
+}
+
+#icon_pm10 {
+    background-color: rgba(34, 168, 45, 0.8);
+}
+
+#p1_avgSelectBtn:hover {
+    background-color: rgb(109, 109, 109);
+    color: white;
+}
+
+/* @media screen and (min-width: 400px) {} */
+
+@media screen and (min-width: 566px) {
+    #p1_textBox {
+        height: 180px;
+        /* background-color: red; */
+    }
+
+    #p1_time {
+        display: inline-block;
+        width: 200px;
+        height: 34px;
+        margin-top: 10px;
+        line-height: 30px;
+        border-radius: 50px;
+        background: #4dbddd;
+        border: 3px solid white;
+        color: white;
+        font-weight: 900;
+        font-size: 1em;
+    }
+
+    #p1_mainTxt {
+        display: block;
+        font-size: 2.4em;
+        letter-spacing: -1.5px;
+        color: white;
+        margin-bottom: 20px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    #p1_subTxt {
+        display: block;
+        margin-top: -5px;
+        font-weight: 700;
+        font-size: 1.1em;
+        line-height: 0.5;
+        color: white;
+    }
+
+    #p1_mobileTxt {
+        display: none;
+    }
+
+    #p1_tooltipMain {
+        left: 145px;
+        bottom: 59px;
+    }
+
+    #page1_mainBox {
+        max-width: 550px;
+    }
+
+    #page1_GraphBox {
+        background-color: #ffffff;
+    }
+
+    #GraphValue {
+        margin-top: -23px;
+        /* width: 60px; */
+        height: 20px;
+        line-height: 20px;
+        background-color: black;
+    }
+
+    #page1_realTimeBcg {
+        max-width: 550px;
+        background-color: white;
+    }
+
+    #crt_RealTime {
+        height: 300px;
+    }
+
+    #p1_avgSelectBtn {
+        font-size: 0.9em;
+    }
+
+}

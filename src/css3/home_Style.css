@@ -1,0 +1,82 @@
+#home {
+    font-family: 'Nanum Gothic', sans-serif;
+    /* 홈페이지 최소 너비 */
+    min-width: 350px;
+}
+
+/* all background bcg */
+#p1_Bcg, #p2_Bcg, #p3_Bcg {
+    background-color: #4dbddd;
+    min-height: 580px;
+}
+
+/* 전체 센터정렬 */
+.v-card__text {
+    text-align: center;
+}
+
+/* 실시간 조회 / 과거이력조회 / 제품소개 */
+.v-tabs__item {
+    font-weight: 700;
+    margin: 0 2px;
+}
+
+/* 메뉴 버튼 border bottom 지우기 (강제로 지웠음) */
+div.v-tabs__slider.accent{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.v-tabs__div {
+    margin: 0 auto;
+    width: 110px;
+}
+
+.v-tabs__div>a {
+    font-size: 0.9em;
+    width: 100%;
+    /* font-family: 'sans-serif', sans-serif; */
+}
+
+.v-tabs__item.v-tabs__item--active {
+    background-color: rgba(197, 215, 226, 0.171);
+    border-radius: 6px;
+}
+
+/* .v-input__control {
+    font-weight: 700;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+} */
+
+#footer {
+    min-width: 350px;
+    height: 30px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* 모바일 반응형 웹 */
+@media screen and (max-width: 1400px) {
+    .container {
+        padding: 0px;
+    }
+
+    html {
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* 모바일용 페이지 최소 높이 */
+    #p1_Bcg,
+    #p2_Bcg,
+    #p3_Bcg {
+        min-height: 470px;
+    }
+
+}

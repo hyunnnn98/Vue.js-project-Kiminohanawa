@@ -46,7 +46,7 @@
 >> - ##### 1. 각 페이지의 구성 요소(스토리 보드) 작성 후 각 페이지간의 컴포넌트 설계 ( 부모-자식 관계 성립 정의 )
 >> <img src="https://user-images.githubusercontent.com/52916934/74582156-68b06e00-4ffb-11ea-8a35-4fde8e82bcee.PNG" width="80%">
 >>
->> - ##### 2. 전체적인 디자인 설계 (CSS)
+>> - ##### 2. 전체적인 디자인 설계 (Page Design)
 >> <img src="https://user-images.githubusercontent.com/52916934/74582211-60a4fe00-4ffc-11ea-9837-b232cc8e7bdc.png" width="40%">
 >> <img src="https://user-images.githubusercontent.com/52916934/74582213-61d62b00-4ffc-11ea-98f4-b53626be6deb.png" width="40%">
 >>

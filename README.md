@@ -47,6 +47,9 @@
 >> <img src="https://user-images.githubusercontent.com/52916934/74582156-68b06e00-4ffb-11ea-8a35-4fde8e82bcee.PNG" width="80%">
 >>
 >> - ##### 2. 전체적인 디자인 설계 (CSS)
+>> <img src="https://user-images.githubusercontent.com/52916934/74582211-60a4fe00-4ffc-11ea-9837-b232cc8e7bdc.png" width="40%">
+>> <img src="https://user-images.githubusercontent.com/52916934/74582213-61d62b00-4ffc-11ea-98f4-b53626be6deb.png" width="40%">
+>>
 > #### ❗️ 開発で大変だったこと
 >> - ##### 컴포넌트 설계간의 생명주기의 이해(ライフサイクルを理解), Axios의 사용법(Axiosの使い方)가 가장 힘들었다.
 >> 
